@@ -42,7 +42,7 @@
 </template>
 
 <script>
-import Editor from "../../../../components/Form/CKEditor";
+import Editor from "../../../../components/Form/CKEditor.vue";
 
 // define model name
 const model = "news";

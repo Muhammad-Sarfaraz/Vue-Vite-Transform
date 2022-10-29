@@ -42,7 +42,7 @@
 // define model name
 const model = "slider";
 
-import Editor from "../../../../../components/Form/CKEditor";
+import Editor from "../../../../../components/Form/CKEditor.vue";
 
 export default {
   components: { Editor },
