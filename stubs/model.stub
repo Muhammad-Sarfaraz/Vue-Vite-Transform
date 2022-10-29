@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @OSHIT SUTRA DHAR
+ */
+
+namespace {{ namespace }};
+
+use App\Models\Base\BaseModel;
+
+class {{ class }} extends BaseModel
+{
+    protected $guarded = ['id'];
+    
+    protected $logName = "{{ class }}";
+}
