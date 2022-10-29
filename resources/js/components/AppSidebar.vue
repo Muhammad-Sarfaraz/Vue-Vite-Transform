@@ -205,8 +205,8 @@
 </template>
 
 <script>
-import RecursiveMenu from "./AppSidebarRecursive";
-import RecursiveMenuCollasped from "./AppSidebarCollaspedRecursive";
+import RecursiveMenu from "./AppSidebarRecursive.vue";
+import RecursiveMenuCollasped from "./AppSidebarCollaspedRecursive.vue";
 
 export default {
   components: { RecursiveMenu, RecursiveMenuCollasped },

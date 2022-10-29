@@ -1,4 +1,4 @@
-require('./login_bootstrap');
+import './login_bootstrap';
 import { createApp } from 'vue';
 
 /** validate for form */

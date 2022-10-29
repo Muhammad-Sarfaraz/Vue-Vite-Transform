@@ -93,7 +93,7 @@ function checkAuth(to, from, next) {
 
 /** router initial */
 const router = createRouter({
-    history: createWebHistory(process.env.MIX_VUE_ROUTER_BASE),
+    history: createWebHistory(import.meta.env.VITE_VUE_ROUTER_BASE),
     scrollBehavior() {
         window.scrollTo(0, 0);
     },
