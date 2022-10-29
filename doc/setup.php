@@ -6,7 +6,7 @@
 
     "3rd"  => "composer install",
 
-    "4th"  => "npm install && npm run dev && npm run watch",
+    "4th"  => "npm install && npm run dev && npm run dev",
 
     "5th"  => "php artisan key:generate && php artisan storage:link",
 
